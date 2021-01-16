@@ -1,0 +1,19 @@
+.text{
+    background-color: green;
+}
+.block {
+    background: yellow;
+    height: 800px;
+  
+}
+
+.foto1{
+    background-image: url(img/photo_2021-01-12_21-24-23.jpg);
+    background-repeat: repeat-x;
+}
+.foto2{
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url(img/photo_2021-01-12_21-24-23.jpg);
+
+}
