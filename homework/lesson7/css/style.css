@@ -1,0 +1,353 @@
+*{
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 76px;
+  margin-bottom: 55px;
+  margin-left: 143px;
+  margin-right:143px ;
+}
+
+.conteiner{
+  width: 1635px;
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+
+/* header */
+
+.header{
+
+  background-color: #fff;
+  margin-bottom: 27px;
+}
+
+.header-top{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.main-item{
+  display: flex;
+ margin-left: 100px;
+
+}
+
+.main-list{
+  padding-right: 70px;
+  list-style-type: none;}
+
+.main__links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: ;
+  text-decoration: none;
+  color: #000000;
+  }
+
+  .search{display: flex;
+    margin-left: 1150px;
+  }
+
+  .search__icon{
+    padding-right: 48px;
+  }
+
+  .header__bottom{
+    margin-top: 77px;
+  }
+
+  .header__bottom-main{
+    display: flex;
+    
+  }
+
+  .bottom-main{
+    list-style-type: none;
+    padding-right: 36px;
+  }
+  
+  .bottom-links{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #262626;
+  }
+.bottom-links::after{ 
+  content: '';
+  background-image: url(../img/Бе.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 5px;
+  height: 10px;
+  margin-left: 18px;
+}
+.bottom-links:last-child:after{
+  content: '';
+  text-decoration: none;
+}
+
+  /* section feature */
+
+  .section1{
+    display: flex;
+  }
+
+  .feature{
+    display: flex;
+  }
+  
+
+  .feature__img{
+    margin-right: 50px;
+    width: 517px;
+  }
+  .img__main{
+    width: 510px;
+    height: 890px;  
+  }
+  .img-thumb{
+    width: 120px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 31px;
+  }
+  .img-thumb1::before{
+    content: '';
+    background-image: url(../img/arrow-prev.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  .img-thumb2::after{
+    counter-reset: '';
+    background-image: url(../img/arrow-next.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+
+  }
+
+  .section__content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__content{
+    width: 817px;
+  }
+  .titel{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: ;
+    padding-bottom: 40px;
+
+
+  }
+
+  .text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #cdcdcd;
+  }
+
+  .cena{
+    font-size: 56px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 77px;
+  }
+   .text-scontent{
+     padding-bottom: 35px;
+   }
+  .size__list{
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  .size__link{
+    list-style-type: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-right: 32px;
+    padding-bottom: 35px;
+  } 
+
+  .description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    color: #424242;
+    padding-bottom: 70px;
+  }
+
+  .textQua{
+   padding-bottom: 20px;
+  }
+
+  .add{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 67px;
+
+
+  }
+  .add__col{
+    
+  }
+
+  .add__col{
+    border: 1px solid #000000;
+    padding-left: 130px;
+  }
+.add__col::before{
+  content: '';
+  background-image: url(../img/heart-ico.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+  
+  .add__col1{
+    background-color: #000000;
+    color: #fff;
+  }
+
+
+  /* section content */
+
+.sec-cont__titel{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+
+.sec__content{
+  margin-top: 116px;
+  margin-bottom: 160px;
+}
+
+.sect__img{
+  display: flex;
+  flex-direction: row;
+}
+
+.img__product{
+  width: 250px;
+  height: 450px;
+  padding-left: 30px;
+}
+
+
+.section__text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 20px;
+}
+.img__discripnion{
+  text-align: center;
+}
+
+.cena-img{
+  padding-top: 20px;
+}
+
+
+/* section subskribe */
+
+.subscribe{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #000000;
+  text-align: center;
+}
+.subscribe__titel{
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.subscribe__text{
+  padding-bottom: 90px;
+}
+
+.subscribe__mail{
+  display: flex;
+  justify-content: center;
+   
+}
+
+.subscribe__mail p:last-child{
+  font-weight: 400;
+  padding-left: 170px;
+}
+
+/* footer */
+
+.footer__top{
+  display: flex;
+
+  align-items: center;
+}
+
+.footer__top{
+  margin-top: 176px;
+}
+
+.footer__logo{
+  padding-right: 140px;
+}
+
+.footer__main{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #d1d1d1;
+
+}
+.f-main{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer__main-link{
+  list-style-type: none;
+  padding-left: 68px;
+}
+
+.footer__links{
+  text-decoration: none;
+  color: #d1d1d1;
+}
+.footer__othe{
+  padding-left: 220px;
+}
+
+.footer__bottom{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: #cdcdcd;
+  text-align: center;
+  margin-top: 90px;
+}

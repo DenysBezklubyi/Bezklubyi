@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('fonts/TimesNewRoman.eot');
+    src: url('fonts/TimesNewRoman.eot') format('embedded-opentype'),
+         url('fonts/TimesNewRoman.woff2') format('woff2'),
+         url('fonts/TimesNewRoman.woff') format('woff'),
+         url('fonts/TimesNewRoman.ttf') format('truetype'),
+         url('fonts/TimesNewRoman.svg#TimesNewRoman') format('svg');
+}
