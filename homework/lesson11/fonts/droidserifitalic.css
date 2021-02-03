@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'droidserifitalic';
+    src: url('fonts/droidserifitalic.eot');
+    src: url('fonts/droidserifitalic.eot') format('embedded-opentype'),
+         url('fonts/droidserifitalic.woff2') format('woff2'),
+         url('fonts/droidserifitalic.woff') format('woff'),
+         url('fonts/droidserifitalic.ttf') format('truetype'),
+         url('fonts/droidserifitalic.svg#droidserifitalic') format('svg');
+}

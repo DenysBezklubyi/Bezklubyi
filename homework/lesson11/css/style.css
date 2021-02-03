@@ -1,0 +1,417 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+ 
+}
+
+.conteiner{
+  margin: 0 auto;
+  width: 940px;
+  max-width: 100%;
+}
+
+.titel{
+  font-family: 'montserratbold';
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.subtitel{
+  font-family: 'robotoslabregular';
+  font-size: 14px;
+  color: #777777 ; 
+  text-align: center;
+  padding-top: 26px;}
+
+/* header */
+.header{
+  background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+
+.header__top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+
+}
+
+.header__logo{
+  font-family: 'WisdomScriptAJ';
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #fed136;
+}
+
+.main__list{
+  display: flex;
+  flex-direction: row;
+}
+.main__link{
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+
+.main-links{
+  font-family: 'montserratregular';
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main-links:hover{
+  border-bottom: 3px solid #86ffec;
+}
+.header__content{
+  padding-top: 210px;
+  text-align: center;
+  color: #fff;
+}
+
+.header__content h2{
+  font-family: 'droidserifitalic';
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.header__content h1{
+  font-family: 'montserratbold';
+  font-size: 75px;
+  text-transform: uppercase;
+  padding-top: 55px;
+}
+
+.button{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  
+ 
+}
+
+.bnt{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fed136;
+  width: 240px;
+  height: 65px;
+  cursor: pointer;
+}
+
+/* service */
+
+.service__content{
+  margin-bottom: 120px;
+}
+
+.service__text{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.service__discription{
+  width: 241px;
+  padding-top: 80px;
+}
+.img-service{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.titeil__discripnion{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+/* portfolio */
+
+.portfolio{
+  background: #f7f7f7;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.portfolio__content{
+  text-align: center;
+  color: #222222;
+}
+
+.portfolio__subtiteil{
+  font-family: 'droidserifitalic';
+  font-size: 16px;
+  color: #a0a0a0;
+  padding-bottom: 80px;
+}
+
+.portfolio__work{
+ 
+}
+
+.portfolio__discrip{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+ 
+}
+.portfolio__discrip2{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.portfolio__discription{
+ padding-right: 30px;
+}
+
+.portfolio__img{
+  width: 290px;
+  height: 300px;
+}
+
+.portfolio__discription-titel{
+font-family: 'montserratbold';
+font-size: 18px;  
+font-weight: 700; 
+text-align: center;
+padding-top: 30px;
+}
+
+.portfolio__subtitel{
+  font-family: 'droidserifitalic';
+  font-size: 14px;
+  color: #c5c5c5;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 120px;
+}
+
+/* about */
+
+.about{
+  margin-bottom: 82px;
+}
+
+.about__content-titel{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: right;
+  color: #222222;
+  padding-bottom: 24px;
+}
+
+.about__content-text{
+  font-family: 'robotoslabregular';
+  font-size: 14px;
+  text-align: right;
+  color: #777777;
+}
+
+.about__blok{
+  
+}
+.about__conteiner{
+  display: flex; 
+  justify-content: center;
+  margin-top: 82px;
+  
+  width: 520px;
+
+}
+.about__content{
+  text-align: left;
+  width: 420px;
+  height: 160px;
+}
+
+.about__img{
+  padding-left: 40px;
+}
+
+.about__conteiner1{
+display: flex;
+justify-content: flex-end;
+text-align: left;
+margin-top: 92px;
+}
+
+.about__content1{
+ text-align: right;
+  width: 420px;
+  padding-left: 40px;
+}
+
+.about__content-titel2{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #222222;
+  padding-bottom: 24px;
+}
+
+.about__content-text2{
+  font-family: 'robotoslabregular';
+  font-size: 14px;
+  text-align: left;
+  color: #777777;
+}
+
+.span{
+  text-transform: uppercase;
+  padding-bottom: 160px;
+}
+
+.yellow-circle{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  text-align: center;
+  
+  color: #fff;
+}
+
+.yellow-circle-bg{
+text-align: center;
+}
+/* amazing */
+.amazing__content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.content__list{
+  text-align: center;
+  margin-top: 87px;
+}
+
+.content__list-name{
+  font-family: 'montserratbold';
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #222222;
+  padding-top: 30px;  
+  padding-bottom: 14px;
+}
+
+.content__list-activities{
+  font-family: 'robotoslabregular';
+  font-size: 14px;
+  text-align: center;
+  color: #777777;
+  padding-bottom: 15px;  
+ 
+}
+.amazink__list-links{
+  
+}
+
+.amazing__text{
+  font-family: 'robotoslabregular';
+  font-size: 16px;
+  text-align: center;
+  color: #777777;
+  padding-top: 56px;
+  padding-bottom: 180px;
+}
+
+.amazing__footer{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.amazing__footer-img{
+  padding-left: 40px;
+}
+
+/* contacts */
+
+.contact_us{
+  background: url(../img/map.png) no-repeat center;
+}
+
+.contacts-titel{
+  color: #fff ;
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.input{
+  font-family: 'montserratbold';
+  font-size: 14px;
+  color: #e1e1e1;
+  display: block;
+  width: 455px;
+  height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-left: 13px;
+}
+
+.textarea{
+  font-family: 'montserratbold';
+  font-size: 14px;
+  color: #e1e1e1;
+  text-transform: uppercase;
+  width: 455px;
+  height: 211px;
+  padding-top: 16px;
+  padding-left: 13px;
+}
+
+/* footer */
+
+.footer__content{
+  display: flex;
+  align-items: center;
+
+}
+
+.footer__text{
+  font-family: 'montserratregular';
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+  text-transform: capitalize;
+  
+}
+.footer__soc{
+ padding-top: 0px;
+ padding-bottom: 30px;
+}
+.footer_links{
+  padding-right: 12px;
+}
+
+.footer__img{
+  padding-left: 90px;
+}
+/* fonts */
+
+font-family: 'WisdomScriptAJ';
+font-family: 'montserratregular';
+font-family: 'montserratbold';
+font-family: 'droidserifitalic';
+font-family: 'robotoslabregular';
+
+
+
+

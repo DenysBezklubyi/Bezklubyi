@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'robotoslabregular';
+    src: url('fonts/robotoslabregular.eot');
+    src: url('fonts/robotoslabregular.eot') format('embedded-opentype'),
+         url('fonts/robotoslabregular.woff2') format('woff2'),
+         url('fonts/robotoslabregular.woff') format('woff'),
+         url('fonts/robotoslabregular.ttf') format('truetype'),
+         url('fonts/robotoslabregular.svg#robotoslabregular') format('svg');
+}
