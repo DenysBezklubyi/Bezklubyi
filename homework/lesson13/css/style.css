@@ -1,0 +1,184 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  width: 1660px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.blok{
+  display: flex;
+
+}
+.style-element{
+  display: flex;
+  flex-direction: column;
+  padding-right: 160px;
+  padding-left: 68px;
+}
+
+.style-img{
+  width: 154px;
+  padding-top: 105px;
+  padding-bottom: 604px;
+}
+.style-img2{
+  padding-top: 604px;
+  width: 50px;
+}
+
+.style-element-r{
+  display: flex;
+  flex-direction: column-reverse;
+  order: 3;
+  padding-right: 42px;
+  padding-left: 176px;
+}
+
+.style-imgr{
+  width: 146px;
+  padding-top: 604px;
+  padding-bottom: 60px;
+}
+
+.style-img2r{
+  padding-bottom: 604px;
+  width: 40px;
+}
+
+
+.portfolio__blok{
+  display: flex;
+  flex-direction: column;
+}
+.titel{
+  text-align: center;
+  padding-top: 190px;
+}
+
+.titel__portfolio{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #c04ae2;
+  padding-bottom: 50px;
+}
+
+.subtitel{
+  font-size: 30px;
+  color: #111111;
+  padding-bottom: px;
+}
+
+.content{
+ display: flex;
+ align-items: center;
+ padding-top: 130px;
+}
+
+.content-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img{
+}
+.img-r{
+  max-width: px;
+  padding-right: 130px;
+}
+.animate__animated.animate__pulse:hover{
+  content: '';
+
+ }
+.img-l{
+  max-width: px;
+  padding-left: 150px;
+}
+.text{
+  display: flex;
+  flex-direction: column ;
+  height: 360px;
+}
+
+.content-titel{
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.item-1{
+  color: #fe6686;
+}
+.item-2{
+  color: #54d6a1;
+}
+.item-3{
+  color: #fe9a3f;
+}
+
+.content-subtitel{
+  font-size: 20px;
+  color: #111111;
+  text-align: left;
+  line-height: 32px;
+  padding-bottom: 48px;
+}
+
+.content-text{
+  font-size: 14px;
+  color: #5e5858;
+  width: 550px;
+  padding-bottom: 54px;
+}
+
+.portfolio__links{
+  font-size: 18px;
+  color: #111111;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+  border: 2px solid #c04ae2;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.footer__links{
+  font-size: 18px;
+  color: #111111;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #c04ae2;
+}
+
+.portfolio__footer{
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
