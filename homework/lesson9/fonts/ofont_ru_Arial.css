@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ofont_ru_Arial';
+    src: url('fonts/ofont_ru_Arial.eot');
+    src: url('fonts/ofont_ru_Arial.eot') format('embedded-opentype'),
+         url('fonts/ofont_ru_Arial.woff2') format('woff2'),
+         url('fonts/ofont_ru_Arial.woff') format('woff'),
+         url('fonts/ofont_ru_Arial.ttf') format('truetype'),
+         url('fonts/ofont_ru_Arial.svg#ofont_ru_Arial') format('svg');
+}
