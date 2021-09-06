@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PlayfairDisplayVariableFont_wght.css';
+    src: url('fonts/PlayfairDisplayVariableFont_wght.eot');
+    src: url('fonts/PlayfairDisplayVariableFont_wght.eot') format('embedded-opentype'),
+         url('fonts/PlayfairDisplayVariableFont_wght.woff2') format('woff2'),
+         url('fonts/PlayfairDisplayVariableFont_wght.woff') format('woff'),
+         url('fonts/PlayfairDisplayVariableFont_wght.ttf') format('truetype'),
+         url('fonts/PlayfairDisplayVariableFont_wght.svg#PlayfairDisplayVariableFont_wght') format('svg');
+}

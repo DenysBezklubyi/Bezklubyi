@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RufinaRegular';
+    src: url('fonts/RufinaRegular.eot');
+    src: url('fonts/RufinaRegular.eot') format('embedded-opentype'),
+         url('fonts/RufinaRegular.woff2') format('woff2'),
+         url('fonts/RufinaRegular.woff') format('woff'),
+         url('fonts/RufinaRegular.ttf') format('truetype'),
+         url('fonts/RufinaRegular.svg#RufinaRegular') format('svg');
+}

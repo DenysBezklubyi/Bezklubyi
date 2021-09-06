@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RufinaBold';
+    src: url('fonts/RufinaBold.eot');
+    src: url('fonts/RufinaBold.eot') format('embedded-opentype'),
+         url('fonts/RufinaBold.woff2') format('woff2'),
+         url('fonts/RufinaBold.woff') format('woff'),
+         url('fonts/RufinaBold.ttf') format('truetype'),
+         url('fonts/RufinaBold.svg#RufinaBold') format('svg');
+}
