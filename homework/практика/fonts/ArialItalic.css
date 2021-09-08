@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ArialItalic';
+    src: url('fonts/ArialItalic.eot');
+    src: url('fonts/ArialItalic.eot') format('embedded-opentype'),
+         url('fonts/ArialItalic.woff2') format('woff2'),
+         url('fonts/ArialItalic.woff') format('woff'),
+         url('fonts/ArialItalic.ttf') format('truetype'),
+         url('fonts/ArialItalic.svg#ArialItalic') format('svg');
+}

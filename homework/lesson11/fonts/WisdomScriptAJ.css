@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'WisdomScriptAJ';
+    src: url('fonts/WisdomScriptAJ.eot');
+    src: url('fonts/WisdomScriptAJ.eot') format('embedded-opentype'),
+         url('fonts/WisdomScriptAJ.woff2') format('woff2'),
+         url('fonts/WisdomScriptAJ.woff') format('woff'),
+         url('fonts/WisdomScriptAJ.ttf') format('truetype'),
+         url('fonts/WisdomScriptAJ.svg#WisdomScriptAJ') format('svg');
+}
